@@ -1,8 +1,8 @@
 Inicio do sistema
-    - o usuario poderá listar todos os buckets do repositório -> command: s3 ls
+    - o usuario poderá listar todos os buckets do repositório -> command: ls
         - será retornado uma lista com o nome do bucket | data de criaçao | numero de arquivos | tamanho total dos arquivos | ultimo arquivo modificado
     
-    - filtrar uma lista de buckets do repositório por nome -> command: list bucket <regex:name_of_bucket>
+    - filtrar uma lista de buckets do repositório por nome -> command: ls <regex:name_of_bucket>
         - baseado no nome digitado será retornado uma lista com o nome do bucket | data de criaçao | numero de arquivos | tamanho total dos arquivos | ultimo arquivo modificado
     
     - filtrar uma lista de buckets do repositório por 
