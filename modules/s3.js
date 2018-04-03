@@ -6,8 +6,8 @@ var humanSize   = require('../lib/humanSize');
 var jsonFile    = require('../modules/jsonFile');
 
 AWS.config.update({ 
-    "accessKeyId": "AKIAI4QXB5PROIYV7DKQ", 
-    "secretAccessKey": "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", 
+    "accessKeyId": "", 
+    "secretAccessKey": "", 
     "region": "us-west-2" 
 });
 
@@ -174,6 +174,4 @@ exports.listAll = function(human){
             console.log("Error on listBuckets ", err);
         });
     }
-    
-    
 }
